@@ -1,0 +1,27 @@
+{
+    "name": "fb-api",
+    "description": "A nodejs wrapper for the FogBugz API",
+    "version": "0.0.1",
+    "author": "Chad Engler <chad@pantherdev.com>",
+    "repository": {
+	"type": "git",
+	"url": "https://github.com/englercj/fb-api.git"
+    },
+    "keywords": [ "ticket", "bug", "FogBugz" ],
+    "dependencies": {
+	"pkginfo": "0.2.x",
+	"libxmljs-easy": "0.1.x",
+	"request": "2.9.x"
+    },
+    "devDependencies": {
+	"vows": "0.6.x"
+    },
+    "main": "./lib/fb",
+    "scripts": {
+	"test": "vows --spec --isolate"
+    },
+    "engines": {
+	"node": ">= 0.6.0"
+    },
+    "private": true
+}
